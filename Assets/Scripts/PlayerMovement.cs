@@ -65,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("RightStickX");
         float vertical = Input.GetAxisRaw("RightStickY");
         float angle = Mathf.Atan2(vertical, horizontal) * Mathf.Rad2Deg;
+        Debug.Log(angle);
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
         transform.Rotate(0, 0, 90);
     }
