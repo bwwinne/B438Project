@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     private Rigidbody2D myRigidBody;
     private Vector3 change;
+    private Vector3 playerRot;
 
     private Animator anim;
 
@@ -21,7 +22,13 @@ public class PlayerMovement : MonoBehaviour
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
+
+        playerRot = Vector3.zero;
+        playerRot.x = Input.GetAxisRaw("RightStickX");
+        playerRot.y = Input.GetAxisRaw("RightStickY");
         //Debug.Log(change);
+
+
 
         UpdateAnimationAndMove();
     }
@@ -31,18 +38,34 @@ public class PlayerMovement : MonoBehaviour
         if (change != Vector3.zero)
         {
             MoveCharacter();
-            anim.SetFloat("moveX", change.x);
-            anim.SetFloat("moveY", change.y);
+            //anim.SetFloat("moveX", change.x);
+            //anim.SetFloat("moveY", change.y);
             anim.SetBool("moving", true);
         }
         else
         {
             anim.SetBool("moving", false);
         }
+
+        // only rotate if right stick input active
+        if (playerRot != Vector3.zero)
+        {
+            RotateCharacter();
+        }
     }
 
     void MoveCharacter()
     {
         myRigidBody.MovePosition(transform.position + change * speed * Time.deltaTime);
+    }
+
+    void RotateCharacter()
+    {
+        //transform.eulerAngles = new Vector3(0,0, Mathf.Atan();
+        float horizontal = Input.GetAxisRaw("RightStickX");
+        float vertical = Input.GetAxisRaw("RightStickY");
+        float angle = Mathf.Atan2(vertical, horizontal) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        transform.Rotate(0, 0, 90);
     }
 }
