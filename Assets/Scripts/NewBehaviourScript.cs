@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform target;
+    public float smoothing;
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
+        if (transform.position != target.position)
+        {
+            transform.position = Vector3.Lerp(transform.position, target.position, smoothing);
+        }
     }
 }

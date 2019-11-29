@@ -24,11 +24,9 @@ public class PlayerMovement : MonoBehaviour
         change.y = Input.GetAxisRaw("Vertical");
 
         playerRot = Vector3.zero;
-        playerRot.x = Input.GetAxisRaw("RightStickX");
-        playerRot.y = Input.GetAxisRaw("RightStickY");
+        playerRot.x = Input.GetAxis("RightStickX");
+        playerRot.y = Input.GetAxis("RightStickY");
         //Debug.Log(change);
-
-
 
         UpdateAnimationAndMove();
     }
@@ -50,7 +48,10 @@ public class PlayerMovement : MonoBehaviour
         // only rotate if right stick input active
         if (playerRot != Vector3.zero)
         {
-            RotateCharacter();
+            anim.SetFloat("stickPosX", playerRot.x);
+            anim.SetFloat("stickPosY", playerRot.y);
+
+            //RotateCharacter();
         }
     }
 
@@ -61,12 +62,11 @@ public class PlayerMovement : MonoBehaviour
 
     void RotateCharacter()
     {
-        //transform.eulerAngles = new Vector3(0,0, Mathf.Atan();
-        float horizontal = Input.GetAxisRaw("RightStickX");
-        float vertical = Input.GetAxisRaw("RightStickY");
+        float horizontal = Input.GetAxis("RightStickX");
+        float vertical = Input.GetAxis("RightStickY");
         float angle = Mathf.Atan2(vertical, horizontal) * Mathf.Rad2Deg;
-        Debug.Log(angle);
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        transform.Rotate(0, 0, 90);
+        //Debug.Log(angle);
+        //transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        //transform.Rotate(0, 0, 90);
     }
 }

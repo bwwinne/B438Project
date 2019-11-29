@@ -1,0 +1,1879 @@
+fileFormatVersion: 2
+guid: f917c47ee58a4f447914b04a4836c049
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 38466334844754215
+    second: Templar_Knight_Regular_0
+  - first:
+      213: -5144472773588965108
+    second: Templar_Knight_Regular_1
+  - first:
+      213: -3755104053347979076
+    second: Templar_Knight_Regular_2
+  - first:
+      213: 9048976803791143669
+    second: Templar_Knight_Regular_3
+  - first:
+      213: 4858372792340131477
+    second: Templar_Knight_Regular_4
+  - first:
+      213: 8050173332769944021
+    second: Templar_Knight_Regular_5
+  - first:
+      213: 871607028980107244
+    second: Templar_Knight_Regular_6
+  - first:
+      213: -3973224773245243316
+    second: Templar_Knight_Regular_7
+  - first:
+      213: -3862805328882955731
+    second: Templar_Knight_Regular_8
+  - first:
+      213: -8456064796588048693
+    second: Templar_Knight_Regular_9
+  - first:
+      213: -3341889635879330919
+    second: Templar_Knight_Regular_10
+  - first:
+      213: -1365334602775033386
+    second: Templar_Knight_Regular_11
+  - first:
+      213: -6804038464141640911
+    second: Templar_Knight_Regular_12
+  - first:
+      213: -2558985779154235982
+    second: Templar_Knight_Regular_13
+  - first:
+      213: 8896538519675176326
+    second: Templar_Knight_Regular_14
+  - first:
+      213: -474151195503748504
+    second: Templar_Knight_Regular_15
+  - first:
+      213: 8881224720716446203
+    second: Templar_Knight_Regular_16
+  - first:
+      213: 1931121453321097707
+    second: Templar_Knight_Regular_17
+  - first:
+      213: 1183902103162676980
+    second: Templar_Knight_Regular_18
+  - first:
+      213: -2357377445661823775
+    second: Templar_Knight_Regular_19
+  - first:
+      213: -3184432168926512464
+    second: Templar_Knight_Regular_20
+  - first:
+      213: 5782772171917620508
+    second: Templar_Knight_Regular_21
+  - first:
+      213: 8515320896629394677
+    second: Templar_Knight_Regular_22
+  - first:
+      213: -1359457790560786244
+    second: Templar_Knight_Regular_23
+  - first:
+      213: -3578311095161595402
+    second: Templar_Knight_Regular_24
+  - first:
+      213: 3407656496616381882
+    second: Templar_Knight_Regular_25
+  - first:
+      213: 4369632492833455401
+    second: Templar_Knight_Regular_26
+  - first:
+      213: -7259306253891825555
+    second: Templar_Knight_Regular_27
+  - first:
+      213: 357972319759495513
+    second: Templar_Knight_Regular_28
+  - first:
+      213: -7607086123409434965
+    second: Templar_Knight_Regular_29
+  - first:
+      213: -1852816485644111409
+    second: Templar_Knight_Regular_30
+  - first:
+      213: 5269700800895668506
+    second: Templar_Knight_Regular_31
+  - first:
+      213: -8337212754505700842
+    second: Templar_Knight_Regular_32
+  - first:
+      213: -1746337810949622847
+    second: Templar_Knight_Regular_33
+  - first:
+      213: -3054091490115146446
+    second: Templar_Knight_Regular_34
+  - first:
+      213: -2087576951655086719
+    second: Templar_Knight_Regular_35
+  - first:
+      213: -2413187894859812101
+    second: Templar_Knight_Regular_36
+  - first:
+      213: -4201767777927776077
+    second: Templar_Knight_Regular_37
+  - first:
+      213: -742083923658166605
+    second: Templar_Knight_Regular_38
+  - first:
+      213: 8133749920511465803
+    second: Templar_Knight_Regular_39
+  - first:
+      213: -1718279403902409890
+    second: Templar_Knight_Regular_40
+  - first:
+      213: 1752632054650924484
+    second: Templar_Knight_Regular_41
+  - first:
+      213: 8700076263530503175
+    second: Templar_Knight_Regular_42
+  - first:
+      213: -3986509736862847329
+    second: Templar_Knight_Regular_43
+  - first:
+      213: 402095446046275579
+    second: Templar_Knight_Regular_44
+  - first:
+      213: -4851980566542032642
+    second: Templar_Knight_Regular_45
+  - first:
+      213: 2419335720606366683
+    second: Templar_Knight_Regular_46
+  - first:
+      213: -216111648490868966
+    second: Templar_Knight_Regular_47
+  - first:
+      213: 4059638185226888769
+    second: Templar_Knight_Regular_48
+  - first:
+      213: -5125253358414713151
+    second: Templar_Knight_Regular_49
+  - first:
+      213: -9123824578743642090
+    second: Templar_Knight_Regular_50
+  - first:
+      213: 8898571408535697348
+    second: Templar_Knight_Regular_51
+  - first:
+      213: 8738319524221308791
+    second: Templar_Knight_Regular_52
+  - first:
+      213: -816949766028240880
+    second: Templar_Knight_Regular_53
+  - first:
+      213: 6483532895838895189
+    second: Templar_Knight_Regular_54
+  - first:
+      213: -483322032946861067
+    second: Templar_Knight_Regular_55
+  - first:
+      213: -1324659681849466451
+    second: Templar_Knight_Regular_56
+  - first:
+      213: -705649904633726548
+    second: Templar_Knight_Regular_57
+  - first:
+      213: 3580392605642000417
+    second: Templar_Knight_Regular_58
+  - first:
+      213: 3636728561185723893
+    second: Templar_Knight_Regular_59
+  - first:
+      213: 9131162261391005632
+    second: Templar_Knight_Regular_60
+  - first:
+      213: -4779323947130580508
+    second: Templar_Knight_Regular_61
+  - first:
+      213: -3062137237351768267
+    second: Templar_Knight_Regular_62
+  - first:
+      213: 7841339777423241697
+    second: Templar_Knight_Regular_63
+  - first:
+      213: 234882477325674710
+    second: Templar_Knight_Regular_64
+  - first:
+      213: -3310213914715912015
+    second: Templar_Knight_Regular_65
+  - first:
+      213: 9215301137774384857
+    second: Templar_Knight_Regular_66
+  - first:
+      213: 1732824449100277692
+    second: Templar_Knight_Regular_67
+  - first:
+      213: 3062672284491563091
+    second: Templar_Knight_Regular_68
+  - first:
+      213: 4638968669277587639
+    second: Templar_Knight_Regular_69
+  - first:
+      213: 2101240891989477412
+    second: Templar_Knight_Regular_70
+  - first:
+      213: -558376971307691028
+    second: Templar_Knight_Regular_71
+  - first:
+      213: 4876379434362589944
+    second: Templar_Knight_Regular_72
+  - first:
+      213: -5239874071902239391
+    second: Templar_Knight_Regular_73
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 676
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45c9628cca00904995c0376c2877f6a
+      internalID: 38466334844754215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 676
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af965b6f7d5c47447acff9f5cd1f3980
+      internalID: -5144472773588965108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 676
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b669ea0d8c24a5447879cdcfa0571c68
+      internalID: -3755104053347979076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 676
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18cac6e145783448a06041a0c128a1
+      internalID: 9048976803791143669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 676
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b19318ca7d92f48aaca4cd4e2f7d68
+      internalID: 4858372792340131477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 676
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b5c08d16d8ea7458af51ea8dfcd23d
+      internalID: 8050173332769944021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_6
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 676
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a70fdb3c4e0b304380adcfb989eb962
+      internalID: 871607028980107244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 676
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a22903362e05d439fb4009eeb6d672
+      internalID: -3973224773245243316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 601
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd59dad248051479c34fd37bba6d0e
+      internalID: -3862805328882955731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 601
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f95651b6ffcc488b932467cb04b7a
+      internalID: -8456064796588048693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 601
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a5858b72a889d48b3bd2a9e88223ae
+      internalID: -3341889635879330919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 601
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c1f4895f28eed4ca072d32a684e79e
+      internalID: -1365334602775033386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 601
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca18a525129d2744b13f6396201736d
+      internalID: -6804038464141640911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 601
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31210a136d508b4ca382cf50c97412c
+      internalID: -2558985779154235982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 601
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8beb13b4706d1458292014ec7d681f
+      internalID: 8896538519675176326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_15
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 601
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacfe31de810ed243b87fd17d5ec30ba
+      internalID: -474151195503748504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 527
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e7b2f2c77e9994f9ba06836892688f
+      internalID: 8881224720716446203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 526
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af209e4bea037034c842a1130c97956c
+      internalID: 1931121453321097707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 527
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb6bbf01004be74988500fcab4d5348
+      internalID: 1183902103162676980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 526
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1df95a3cf0bc04380a3a15f64afdc0
+      internalID: -2357377445661823775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 527
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759a2d6d5b1e3084da6021ba2de59e19
+      internalID: -3184432168926512464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_21
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 526
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb242decef1ec4299ed439de805252
+      internalID: 5782772171917620508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_22
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 527
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911f68af80d0f348a027697d950446e
+      internalID: 8515320896629394677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 526
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd185499a1b1a34eaa97e1cbabf9aec
+      internalID: -1359457790560786244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 451
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d464819ef1d1d3408ed7dc86faa01f8
+      internalID: -3578311095161595402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 450
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064bc19c36efb60438f0af97cb53f88a
+      internalID: 3407656496616381882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 451
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a82424ecd232734ea2c54c8e3ad8a2d
+      internalID: 4369632492833455401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 450
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2335a4c297baf94ba8617172debec32
+      internalID: -7259306253891825555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_28
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 451
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f9baa08a85ee4408922bad1d6a1a5a
+      internalID: 357972319759495513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_29
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 450
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f8f06de1d7c674babde72016db8eda
+      internalID: -7607086123409434965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_30
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 451
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c6dfcc1c08e6f4ab39bda9bab0623a
+      internalID: -1852816485644111409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_31
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 450
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a052e2f055f54ebef7e1ad89ec8b1
+      internalID: 5269700800895668506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_32
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 376
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8618c8570cba5499c99329a91975d8
+      internalID: -8337212754505700842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 376
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5934f461c8daa844af87e0b79768612
+      internalID: -1746337810949622847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 376
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6fd6fdcf1134f4f820d8c20aabcd14
+      internalID: -3054091490115146446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_35
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 376
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d2812d811546c49834c186a9b0b85a
+      internalID: -2087576951655086719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 376
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b5c990c74370d49b253c02d7ae2b7f
+      internalID: -2413187894859812101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_37
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 376
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48084f3734e39204480b57108429c6c2
+      internalID: -4201767777927776077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_38
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 376
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0718a500bd7b924681113638041b2da
+      internalID: -742083923658166605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_39
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 376
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b951f895ee47c149a04c10f6275a590
+      internalID: 8133749920511465803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 301
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b67e8b27f73e4e88f9c697149b6f6
+      internalID: -1718279403902409890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_41
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 301
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e883334a73684a9643c75de5985be
+      internalID: 1752632054650924484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 301
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9caeea11c10c94cad1415f2c01bb08
+      internalID: 8700076263530503175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_43
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 301
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36421c035b1544881e035b15e095aa
+      internalID: -3986509736862847329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_44
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 301
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c147893ba59614887b6d4e92f29210
+      internalID: 402095446046275579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_45
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 301
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2199999ecf9d1c34fa13f5d1e46d03e6
+      internalID: -4851980566542032642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_46
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 301
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38283a4da3644064e82949d74e85b761
+      internalID: 2419335720606366683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_47
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 301
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8c9cb0b423a284a8b130c6c3be5e2f
+      internalID: -216111648490868966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 227
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3f2f6e270fe04439b75b0c0faa1c4b
+      internalID: 4059638185226888769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 226
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a4a116e15a05a44a9de6bef59e04e3
+      internalID: -5125253358414713151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_50
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 226
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb3567358b7e0d4981dfc1ee846ff56
+      internalID: -9123824578743642090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_51
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 226
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a67654c96a9274088bdca15ee64165
+      internalID: 8898571408535697348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_52
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 226
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a310ad9e583f0043a38a2ede4a22127
+      internalID: 8738319524221308791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 226
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77cf2e5c5a4a654388dd8c623202596
+      internalID: -816949766028240880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_54
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 226
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde75c9711ad59647a54277d45e217bb
+      internalID: 6483532895838895189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_55
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 226
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd682b4720ff1e4f9d8d437ffb16f93
+      internalID: -483322032946861067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_56
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 152
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54d1b2c78ebae546b20aa4c477fc3ef
+      internalID: -1324659681849466451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 152
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1509625a9ef336f4fa02830c2a103ddb
+      internalID: -705649904633726548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_58
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 152
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e9f1a42b93bb4984bb3eccb4cca01
+      internalID: 3580392605642000417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_59
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 152
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f143271d05882544abed033d593c2be
+      internalID: 3636728561185723893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 152
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24950a68790feea4983a768cf2ea6bbf
+      internalID: 9131162261391005632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_61
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 152
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5082dc5d4170a0848b8f3acc28905cd6
+      internalID: -4779323947130580508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_62
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 152
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4a4ce6bfd0e8246b7aaf08196162b2
+      internalID: -3062137237351768267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_63
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 152
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17313d5da9f2154429c9ae1654f0a3b6
+      internalID: 7841339777423241697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_64
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 78
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef59629cb9f7742999dd9b36044163
+      internalID: 234882477325674710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_65
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15debc7d3ce44704e90c70e25c710aa7
+      internalID: -3310213914715912015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_66
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12540eda749e7e145acbd154db3715be
+      internalID: 9215301137774384857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6077fb386033c0c4b91a01f696494321
+      internalID: 1732824449100277692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_68
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd864973038b4c4482f8b9c387ff0d2
+      internalID: 3062672284491563091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_69
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d509311e6981594dbe8d5543b85aa72
+      internalID: 4638968669277587639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_70
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514921eff5334d043bde60cd54814656
+      internalID: 2101240891989477412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_71
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 3
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d388efe5df4ce149928e00b490d1290
+      internalID: -558376971307691028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_72
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 3
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058a4678174d82440a93d70f0b9786e5
+      internalID: 4876379434362589944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templar_Knight_Regular_73
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 659
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7402f789374d5624395bda5c49bf680b
+      internalID: -5239874071902239391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
