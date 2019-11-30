@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
+        anim.SetFloat("stickPosX", 0);
+        anim.SetFloat("stickPosY", -1);
     }
 
     void Update()
@@ -31,11 +33,9 @@ public class PlayerMovement : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
 
-        
-
         playerRot = Vector3.zero;
-        playerRot.x = Input.GetAxis("RightStickX");
-        playerRot.y = Input.GetAxis("RightStickY");
+        playerRot.x = Input.GetAxisRaw("RightStickX");
+        playerRot.y = Input.GetAxisRaw("RightStickY");
         //Debug.Log(change);
 
         if (Input.GetButtonDown("attack"))// && currentState != PlayerState.attack)
