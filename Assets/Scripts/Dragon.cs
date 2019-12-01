@@ -35,6 +35,7 @@ public class Dragon : Enemy
                 transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
                 RotateTowardsTarget();
                 ChangeState(EnemyState.walk);
+                anim.SetBool("attacking", true);
                 //anim.SetBool("wakeUp", true);
             }
 
@@ -46,7 +47,7 @@ public class Dragon : Enemy
         else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
         {
             //ChangeState(EnemyState.idle);
-            //anim.SetBool("wakeUp", false);
+            anim.SetBool("attacking", false);
         }
     }
 
@@ -73,5 +74,10 @@ public class Dragon : Enemy
         direction = direction.normalized;
         //anim.SetFloat("moveX", direction.x);
         //anim.SetFloat("moveY", direction.y);
+    }
+
+    private IEnumerator FlameBreath()
+    {
+        yield return new WaitForSeconds(1f);
     }
 }

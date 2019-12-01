@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 308842301}
   - component: {fileID: 308842302}
   - component: {fileID: 308842303}
+  - component: {fileID: 308842304}
   m_Layer: 0
   m_Name: flameBreath
   m_TagString: Untagged
@@ -887,6 +888,20 @@ PolygonCollider2D:
       - {x: -4.1380215, y: 1.3541228}
       - {x: -4.1380215, y: 1.3228728}
       - {x: -4.1692715, y: 1.3228728}
+--- !u!114 &308842304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308842300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52774fd6ad21d4459d2f657240a1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 0
+  damage: 5
 --- !u!1 &457748197
 GameObject:
   m_ObjectHideFlags: 0
@@ -7200,10 +7215,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030094972}
+  - component: {fileID: 1030094975}
+  - component: {fileID: 1030094968}
   - component: {fileID: 1030094971}
   - component: {fileID: 1030094970}
   - component: {fileID: 1030094969}
-  - component: {fileID: 1030094968}
   - component: {fileID: 1030094973}
   - component: {fileID: 1030094974}
   m_Layer: 0
@@ -7367,7 +7383,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.013208389, y: -0.016512632}
@@ -7383,6 +7399,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6288414, y: 1.1425452}
   m_EdgeRadius: 0
+--- !u!114 &1030094975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030094967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e94e955b846e2438e9c882177b2b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 0}
+  health: 200
 --- !u!1 &1114576557
 GameObject:
   m_ObjectHideFlags: 0
@@ -27887,7 +27917,7 @@ GameObject:
   - component: {fileID: 1927912319}
   m_Layer: 0
   m_Name: Dragon
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
