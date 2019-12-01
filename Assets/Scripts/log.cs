@@ -8,10 +8,13 @@ public class log : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
+    public Animator anim;
 
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
+        currentState = EnemyState.idle;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -23,7 +26,37 @@ public class log : Enemy
     {
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            if (currentState == EnemyState.idle || currentState == EnemyState.walk)
+            {
+                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                ChangeAnim(temp - transform.position);
+                //myRigidBody.MovePosition(temp);
+                
+                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                ChangeState(EnemyState.walk);
+                anim.SetBool("wakeUp", true);
+            }
+            
         }
+        else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
+        {
+            //ChangeState(EnemyState.idle);
+            anim.SetBool("wakeUp", false);
+        }
+    }
+
+    private void ChangeState(EnemyState newState)
+    {
+        if (currentState != newState)
+        {
+            currentState = newState;
+        }
+    }
+
+    private void ChangeAnim(Vector2 direction)
+    {
+        direction = direction.normalized;
+        anim.SetFloat("moveX", direction.x);
+        anim.SetFloat("moveY", direction.y);
     }
 }
