@@ -59,8 +59,8 @@ MonoBehaviour:
   moveSpeed: 1
   homePosition: {fileID: 0}
   target: {fileID: 0}
-  chaseRadius: 4
-  attackRadius: 2
+  chaseRadius: 8
+  attackRadius: 6
   anim: {fileID: 0}
 --- !u!212 &3594068357921618112
 SpriteRenderer:

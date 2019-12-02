@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public enum PlayerState
 {
@@ -9,7 +10,7 @@ public enum PlayerState
     interact
 }
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     public float speed;
     private Rigidbody2D myRigidBody;
@@ -29,23 +30,27 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal");
-        change.y = Input.GetAxisRaw("Vertical");
-
-        playerRot = Vector3.zero;
-        playerRot.x = Input.GetAxisRaw("RightStickX");
-        playerRot.y = Input.GetAxisRaw("RightStickY");
-        //Debug.Log(change);
-
-        if (Input.GetButtonDown("attack"))// && currentState != PlayerState.attack)
+        if (this.isLocalPlayer)
         {
-            StartCoroutine(AttackCoroutine());
+            change = Vector3.zero;
+            change.x = Input.GetAxisRaw("Horizontal");
+            change.y = Input.GetAxisRaw("Vertical");
+
+            playerRot = Vector3.zero;
+            playerRot.x = Input.GetAxisRaw("RightStickX");
+            playerRot.y = Input.GetAxisRaw("RightStickY");
+            //Debug.Log(change);
+
+            if (Input.GetButtonDown("attack"))// && currentState != PlayerState.attack)
+            {
+                StartCoroutine(AttackCoroutine());
+            }
+            //if (currentState == PlayerState.walk)
+            {
+                UpdateAnimationAndMove();
+            }
         }
-        //if (currentState == PlayerState.walk)
-        {
-            UpdateAnimationAndMove();
-        }
+        
         
     }
 

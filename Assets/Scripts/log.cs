@@ -19,6 +19,11 @@ public class log : Enemy
 
     public override void OnStartServer()
     {
+        Invoke("GetTargets", 1f);
+    }
+
+    void GetTargets()
+    {
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
         anim = GetComponent<Animator>();
@@ -33,7 +38,7 @@ public class log : Enemy
     {
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            if (currentState == EnemyState.idle || currentState == EnemyState.walk)
+            //if (currentState == EnemyState.idle || currentState == EnemyState.walk)
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
                 ChangeAnim(temp - transform.position);
@@ -41,6 +46,7 @@ public class log : Enemy
                 
                 transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
                 ChangeState(EnemyState.walk);
+                Debug.Log("in range");
                 anim.SetBool("wakeUp", true);
             }
             

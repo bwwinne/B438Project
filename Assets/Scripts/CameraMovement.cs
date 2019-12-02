@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class CameraMovement : MonoBehaviour
+public class CameraMovement : NetworkBehaviour
 {
     public Transform target;
     public float smoothing;
@@ -13,6 +14,18 @@ public class CameraMovement : MonoBehaviour
     void Start()
     {
 
+    }
+
+    public override void OnStartServer()
+    {
+        //target = GameObject.FindWithTag("Player").transform;
+        Invoke("SetTarget", 1f);
+    }
+
+    public void SetTarget()
+    {
+        //target = player;
+        target = GameObject.FindWithTag("Player").transform;
     }
 
     void LateUpdate()
