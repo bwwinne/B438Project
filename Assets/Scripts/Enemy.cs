@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public enum EnemyState
 {
@@ -10,7 +11,7 @@ public enum EnemyState
     stagger
 }
 
-public class Enemy : MonoBehaviour
+public class Enemy : NetworkBehaviour
 {
     public EnemyState currentState;
     public Rigidbody2D myRigidBody;

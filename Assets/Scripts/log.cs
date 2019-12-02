@@ -10,7 +10,14 @@ public class log : Enemy
     public float attackRadius;
     public Animator anim;
 
-    void Start()
+    /*void Start()
+    {
+        target = GameObject.FindWithTag("Player").transform;
+        currentState = EnemyState.idle;
+        anim = GetComponent<Animator>();
+    } */
+
+    public override void OnStartServer()
     {
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
