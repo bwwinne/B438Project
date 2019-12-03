@@ -135,7 +135,7 @@ MonoBehaviour:
   health: 10
   enemyName: Trogdor
   baseAttack: 1
-  moveSpeed: 2
+  moveSpeed: 5
   homePosition: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 14

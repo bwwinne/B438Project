@@ -28,6 +28,11 @@ public class PlayerMovement : NetworkBehaviour
         anim.SetFloat("stickPosY", -1);
     }
 
+    public override void OnStartLocalPlayer()
+    {
+        Camera.main.GetComponent<CameraMovement>().SetTarget(this.gameObject.transform);
+    }
+
     void Update()
     {
         if (this.isLocalPlayer)

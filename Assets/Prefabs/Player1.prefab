@@ -313,6 +313,7 @@ MonoBehaviour:
   HPDisplay: {fileID: 5109052479465957332}
   myRigidBody: {fileID: 0}
   spawnPosition: {x: 0, y: 0, z: 0}
+  spawnHealth: 0
   health: 25
 --- !u!114 &6892085028898391429
 MonoBehaviour:
