@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: -6341967348613375523}
   m_Layer: 0
   m_Name: Dragon
-  m_TagString: enemy
+  m_TagString: Dragon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   currentState: 0
   myRigidBody: {fileID: 0}
   health: 10
-  enemyName: 
+  enemyName: Trogdor
   baseAttack: 1
   moveSpeed: 2
   homePosition: {fileID: 0}

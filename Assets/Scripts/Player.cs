@@ -10,9 +10,18 @@ public class Player : NetworkBehaviour
     public Text HPDisplay;
 
     public Rigidbody2D myRigidBody;
+    public Vector3 spawnPosition;
+    public float spawnHealth;
 
     [SyncVar]
     public float health;
+
+    public override void OnStartLocalPlayer()
+    {
+        base.OnStartLocalPlayer();
+        spawnPosition = this.gameObject.transform.position;
+        spawnHealth = health;
+    }
 
     [Server]
     public void TakeDamage(float damage)
@@ -21,12 +30,21 @@ public class Player : NetworkBehaviour
         if (health <= 0)
         {
             this.gameObject.SetActive(false);
+            Invoke("RpcRespawnPlayer", 3f);
         }
     }
 
-    [Server]
+    //[Server]
     private void Update()
     {
         HPDisplay.text = "HP:" + health;
+    }
+
+    [ClientRpc]
+    private void RpcRespawnPlayer()
+    {
+        this.gameObject.SetActive(true);
+        transform.position = spawnPosition;
+        health = spawnHealth;
     }
 }

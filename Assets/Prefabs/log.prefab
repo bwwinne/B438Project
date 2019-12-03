@@ -14,13 +14,12 @@ GameObject:
   - component: {fileID: 3594068357921618119}
   - component: {fileID: 3594068357921618115}
   - component: {fileID: 3594068357921618114}
-  - component: {fileID: 3594068357921618125}
   - component: {fileID: 3594068357921618126}
   - component: {fileID: 4812739867340387393}
   - component: {fileID: 7436220158604219143}
   m_Layer: 0
   m_Name: log
-  m_TagString: enemy
+  m_TagString: log
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,10 +54,10 @@ MonoBehaviour:
   HPDisplay: {fileID: 6946015555757843819}
   currentState: 0
   myRigidBody: {fileID: 0}
-  health: 10
+  health: 5
   enemyName: Larry
   baseAttack: 1
-  moveSpeed: 1
+  moveSpeed: 1.5
   homePosition: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 10
@@ -167,7 +166,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03312683, y: -0.5347729}
+  m_Offset: {x: 0.025039673, y: -0.5347729}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -178,33 +177,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.81687164, y: 0.4004135}
-  m_EdgeRadius: 0
---- !u!61 &3594068357921618125
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3594068357921618118}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.023500443, y: -0.06266546}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9190178, y: 1.2323456}
+  m_Size: {x: 0.93320465, y: 0.4004135}
   m_EdgeRadius: 0
 --- !u!114 &3594068357921618126
 MonoBehaviour:
@@ -292,6 +265,7 @@ GameObject:
   - component: {fileID: 6784818671002746322}
   - component: {fileID: 7776489851447321136}
   - component: {fileID: 6946015555757843819}
+  - component: {fileID: 1621012872943675060}
   m_Layer: 5
   m_Name: HPText
   m_TagString: Untagged
@@ -358,6 +332,39 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: HP:10
+--- !u!114 &1621012872943675060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467606929149848463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!1 &6610710167331348273
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +377,7 @@ GameObject:
   - component: {fileID: 4943471500225548822}
   - component: {fileID: 2726269172552760335}
   - component: {fileID: 2988188426998000657}
+  - component: {fileID: 8735886522335680110}
   m_Layer: 5
   m_Name: HPCanvas
   m_TagString: Untagged
@@ -457,3 +465,36 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8735886522335680110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610710167331348273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

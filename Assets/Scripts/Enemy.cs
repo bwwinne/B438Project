@@ -24,6 +24,8 @@ public class Enemy : NetworkBehaviour
     public int baseAttack;
     public float moveSpeed;
 
+    
+
     [Server]
     void Start()
     {
@@ -31,24 +33,13 @@ public class Enemy : NetworkBehaviour
         //health = maxHealth.initialValue;
     }
 
-    [Server]
-    public void TakeDamage(float damage)
+    public override void OnStartLocalPlayer()
     {
-        health -= damage;
-        if (health <= 0)
-        {
-            Destroy(this);
-        }
+        base.OnStartLocalPlayer();
     }
 
-    [Server]
+    
 
-    private void Update()
-    {
-        HPDisplay.text = "HP:" + health;
-    }
-
-    private void RespawnEnemy()
-    {
-    }
+    //[Server]
+    
 }

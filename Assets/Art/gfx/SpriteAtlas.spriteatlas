@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: da9cfd05c6320f147865088c9a597987, type: 3}
-    totalSpriteSurfaceArea: 23139856
+    totalSpriteSurfaceArea: 25213456
     bindAsDefault: 1
     storedHash:
       serializedVersion: 2
@@ -71,6 +71,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f98a33523d94bce40af0491893ebbc73, type: 3}
   - {fileID: 21300000, guid: 4caa11623a2efc6489f90388e563a0cf, type: 3}
   - {fileID: 21300000, guid: 474a55627009e1543b20e2aaab8ca8cc, type: 3}
+  - {fileID: 21300000, guid: ba2ab9a23d693d0499edfcd7b9c68df0, type: 3}
   - {fileID: 21300000, guid: 1298c9b27b4772b49a1407d6f45e3f3d, type: 3}
   - {fileID: 21300000, guid: 667b81d2ef132cc40bc9584f60422c6c, type: 3}
   - {fileID: 21300000, guid: 3a9048e2154ec9f419e5da89ccd98a86, type: 3}
@@ -1726,6 +1727,7 @@ SpriteAtlas:
   - NPC_test
   - Health_Border
   - jump_1
+  - dragonWall
   - Tree
   - run_4
   - idle_3

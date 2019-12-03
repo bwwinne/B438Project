@@ -11,6 +11,10 @@ public class Dragon : Enemy
     public float attackRadius;
     public Animator anim;
 
+    private Vector3 spawnPosition;
+    private Vector3 spawnRotation;
+    private float spawnHealth;
+
     /*void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
@@ -22,8 +26,22 @@ public class Dragon : Enemy
     public override void OnStartServer()
     {
         Invoke("GetTargets", 1f);
+        Invoke("SaveInitialValues", 1f);
     }
 
+    private void SaveInitialValues()
+    {
+        spawnPosition = this.gameObject.transform.position;
+        spawnRotation = this.gameObject.transform.rotation.eulerAngles;
+        spawnHealth = health;
+    }
+
+    //[Server]
+    private void Update()
+    {
+        HPDisplay.text = "HP:" + health;
+        CheckDistance();
+    }
 
     [Server]
     public void GetTargets()
@@ -31,12 +49,6 @@ public class Dragon : Enemy
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
         anim = GetComponent<Animator>();
-    }
-
-    [Server]
-    void Update()
-    {
-        CheckDistance();
     }
 
     [Server]
@@ -91,5 +103,25 @@ public class Dragon : Enemy
         direction = direction.normalized;
         //anim.SetFloat("moveX", direction.x);
         //anim.SetFloat("moveY", direction.y);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            //Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
+            Invoke("RespawnEnemy", 5f);
+        }
+    }
+
+    private void RespawnEnemy()
+    {
+        this.gameObject.SetActive(true);
+        GetTargets();
+        this.gameObject.transform.position = spawnPosition;
+        this.gameObject.transform.rotation = Quaternion.Euler(spawnRotation);
+        health = spawnHealth;
     }
 }

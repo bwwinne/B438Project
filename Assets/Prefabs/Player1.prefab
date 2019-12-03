@@ -312,7 +312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HPDisplay: {fileID: 5109052479465957332}
   myRigidBody: {fileID: 0}
-  health: 200
+  spawnPosition: {x: 0, y: 0, z: 0}
+  health: 25
 --- !u!114 &6892085028898391429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,7 +396,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &6892085028898391428
 BoxCollider2D:

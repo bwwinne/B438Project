@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Knockback : MonoBehaviour
+public class Knockback : NetworkBehaviour
 {
     public float thrust;
     public float damage;
@@ -15,9 +16,13 @@ public class Knockback : MonoBehaviour
             if (hit != null)
             {
                 //enemy.GetComponent<Enemy>().currentState = EnemyState.stagger;
-                if (collision.CompareTag("enemy"))
+                if (collision.CompareTag("Dragon"))
                 {
-                    collision.GetComponent<Enemy>().TakeDamage(damage);
+                    collision.GetComponent<Dragon>().TakeDamage(damage);
+                }
+                else if (collision.CompareTag("log"))
+                {
+                    collision.GetComponent<log>().TakeDamage(damage);
                 }
                 else if (collision.CompareTag("Player") && collision.isTrigger)
                 {
@@ -26,16 +31,4 @@ public class Knockback : MonoBehaviour
             }
         }
     }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
-    
 }

@@ -24,8 +24,6 @@ public class SpawnEnemies : NetworkBehaviour
         SpawnLog();
     }
 
-    
-
     public void SpawnDragon()
     {
         StartCoroutine(SpawnDragonCoroutine());
