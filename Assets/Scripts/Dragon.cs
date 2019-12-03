@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Dragon : Enemy
 {
@@ -17,42 +18,42 @@ public class Dragon : Enemy
         anim = GetComponent<Animator>();
     } */
 
+    [Server]
     public override void OnStartServer()
     {
         Invoke("GetTargets", 1f);
     }
 
-    void GetTargets()
+
+    [Server]
+    public void GetTargets()
     {
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
         anim = GetComponent<Animator>();
     }
 
+    [Server]
     void Update()
     {
         CheckDistance();
     }
 
+    [Server]
     void CheckDistance()
     {
-        Debug.Log(Vector3.Distance(target.position, transform.position));
+        //Debug.Log(Vector3.Distance(target.position, transform.position));
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            //if (currentState == EnemyState.idle || currentState == EnemyState.walk)
-            {
-                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-                //ChangeAnim(temp - transform.position);
-                //myRigidBody.MovePosition(temp);
+            //Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            //myRigidBody.MovePosition(temp);
 
-                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-                RotateTowardsTarget();
-                ChangeState(EnemyState.walk);
-                anim.SetBool("attacking", true);
-                Debug.Log("in range");
-                //anim.SetBool("wakeUp", true);
-            }
-
+            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            RotateTowardsTarget();
+            ChangeState(EnemyState.walk);
+            anim.SetBool("attacking", true);
+            //Debug.Log("in range");
+            //anim.SetBool("wakeUp", true);
         }
         else if (Vector3.Distance(target.position, transform.position) < attackRadius)
         {
@@ -65,6 +66,7 @@ public class Dragon : Enemy
         }
     }
 
+    [Server]
     private void RotateTowardsTarget()
     {
         float speed = 5.0f * Time.deltaTime;
@@ -74,6 +76,7 @@ public class Dragon : Enemy
         transform.rotation = Quaternion.Slerp(transform.rotation, rot, speed);
     }
 
+    [Server]
     private void ChangeState(EnemyState newState)
     {
         if (currentState != newState)
@@ -82,16 +85,11 @@ public class Dragon : Enemy
         }
     }
 
-
+    [Server]
     private void ChangeAnim(Vector2 direction)
     {
         direction = direction.normalized;
         //anim.SetFloat("moveX", direction.x);
         //anim.SetFloat("moveY", direction.y);
-    }
-
-    private IEnumerator FlameBreath()
-    {
-        yield return new WaitForSeconds(1f);
     }
 }
