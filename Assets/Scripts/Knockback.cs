@@ -10,24 +10,20 @@ public class Knockback : NetworkBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.gameObject.CompareTag("enemy"))
+        Rigidbody2D hit = collision.GetComponent<Rigidbody2D>();
+        if (hit != null)
         {
-            Rigidbody2D hit = collision.GetComponent<Rigidbody2D>();
-            if (hit != null)
+            if (collision.CompareTag("Dragon"))
             {
-                //enemy.GetComponent<Enemy>().currentState = EnemyState.stagger;
-                if (collision.CompareTag("Dragon"))
-                {
-                    collision.GetComponent<Dragon>().TakeDamage(damage);
-                }
-                else if (collision.CompareTag("log"))
-                {
-                    collision.GetComponent<log>().TakeDamage(damage);
-                }
-                else if (collision.CompareTag("Player") && collision.isTrigger)
-                {
-                    collision.GetComponent<Player>().TakeDamage(damage);
-                }
+                collision.GetComponent<Dragon>().TakeDamage(damage);
+            }
+            else if (collision.CompareTag("log"))
+            {
+                collision.GetComponent<log>().TakeDamage(damage);
+            }
+            else if (collision.CompareTag("Player") && collision.isTrigger)
+            {
+                collision.GetComponent<Player>().TakeDamage(damage);
             }
         }
     }

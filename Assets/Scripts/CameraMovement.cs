@@ -10,24 +10,6 @@ public class CameraMovement : NetworkBehaviour
     public Vector2 maxPos;
     public Vector2 minPos;
 
-
-    void Start()
-    {
-
-    }
-
-    /*public override void OnStartServer()
-    {
-        //target = GameObject.FindWithTag("Player").transform;
-        Invoke("SetTarget", 1f);
-    }
-
-    public override void OnStartLocalPlayer()
-    {
-        base.OnStartLocalPlayer();
-        Invoke("SetTarget", 1f);
-    } */
-
     public void SetTarget(Transform target)
     {
         cameraTarget = target;
@@ -35,17 +17,13 @@ public class CameraMovement : NetworkBehaviour
 
     void LateUpdate()
     {
-        //if (isLocalPlayer)
+        if (transform.position != cameraTarget.position)
         {
-            if (transform.position != cameraTarget.position)
-            {
-                Vector3 targetPos = new Vector3(cameraTarget.position.x, cameraTarget.position.y, transform.position.z);
-                targetPos.x = Mathf.Clamp(targetPos.x, minPos.x, maxPos.x);
-                targetPos.y = Mathf.Clamp(targetPos.y, minPos.y, maxPos.y);
-                transform.position = Vector3.Lerp(transform.position, targetPos, smoothing);
+            Vector3 targetPos = new Vector3(cameraTarget.position.x, cameraTarget.position.y, transform.position.z);
+            targetPos.x = Mathf.Clamp(targetPos.x, minPos.x, maxPos.x);
+            targetPos.y = Mathf.Clamp(targetPos.y, minPos.y, maxPos.y);
+            transform.position = Vector3.Lerp(transform.position, targetPos, smoothing);
 
-            }
         }
-        
     }
 }

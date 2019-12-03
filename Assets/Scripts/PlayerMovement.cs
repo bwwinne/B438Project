@@ -44,19 +44,15 @@ public class PlayerMovement : NetworkBehaviour
             playerRot = Vector3.zero;
             playerRot.x = Input.GetAxisRaw("RightStickX");
             playerRot.y = Input.GetAxisRaw("RightStickY");
-            //Debug.Log(change);
 
-            if (Input.GetButtonDown("attack"))// && currentState != PlayerState.attack)
+            if (Input.GetButtonDown("attack"))
             {
                 StartCoroutine(AttackCoroutine());
             }
-            //if (currentState == PlayerState.walk)
             {
                 UpdateAnimationAndMove();
             }
         }
-        
-        
     }
 
     private IEnumerator AttackCoroutine()
@@ -75,8 +71,6 @@ public class PlayerMovement : NetworkBehaviour
         if (change != Vector3.zero)
         {
             MoveCharacter();
-            //anim.SetFloat("moveX", change.x);
-            //anim.SetFloat("moveY", change.y);
             anim.SetBool("moving", true);
         }
         else
@@ -89,23 +83,11 @@ public class PlayerMovement : NetworkBehaviour
         {
             anim.SetFloat("stickPosX", playerRot.x);
             anim.SetFloat("stickPosY", playerRot.y);
-
-            //RotateCharacter();
         }
     }
 
     void MoveCharacter()
     {
         myRigidBody.MovePosition(transform.position + change * speed * Time.deltaTime);
-    }
-
-    void RotateCharacter()
-    {
-        float horizontal = Input.GetAxis("RightStickX");
-        float vertical = Input.GetAxis("RightStickY");
-        float angle = Mathf.Atan2(vertical, horizontal) * Mathf.Rad2Deg;
-        //Debug.Log(angle);
-        //transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        //transform.Rotate(0, 0, 90);
     }
 }

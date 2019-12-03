@@ -34,7 +34,6 @@ public class Player : NetworkBehaviour
         }
     }
 
-    //[Server]
     private void Update()
     {
         HPDisplay.text = "HP:" + health;

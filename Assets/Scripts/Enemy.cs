@@ -24,22 +24,14 @@ public class Enemy : NetworkBehaviour
     public int baseAttack;
     public float moveSpeed;
 
-    
-
     [Server]
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
-        //health = maxHealth.initialValue;
     }
 
     public override void OnStartLocalPlayer()
     {
         base.OnStartLocalPlayer();
     }
-
-    
-
-    //[Server]
-    
 }

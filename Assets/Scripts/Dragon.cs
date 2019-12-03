@@ -54,18 +54,12 @@ public class Dragon : Enemy
     [Server]
     void CheckDistance()
     {
-        //Debug.Log(Vector3.Distance(target.position, transform.position));
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            //Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-            //myRigidBody.MovePosition(temp);
-
             transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
             RotateTowardsTarget();
             ChangeState(EnemyState.walk);
             anim.SetBool("attacking", true);
-            //Debug.Log("in range");
-            //anim.SetBool("wakeUp", true);
         }
         else if (Vector3.Distance(target.position, transform.position) < attackRadius)
         {
@@ -73,7 +67,6 @@ public class Dragon : Enemy
         }
         else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
         {
-            //ChangeState(EnemyState.idle);
             anim.SetBool("attacking", false);
         }
     }
@@ -101,8 +94,6 @@ public class Dragon : Enemy
     private void ChangeAnim(Vector2 direction)
     {
         direction = direction.normalized;
-        //anim.SetFloat("moveX", direction.x);
-        //anim.SetFloat("moveY", direction.y);
     }
 
     public void TakeDamage(float damage)
@@ -110,7 +101,6 @@ public class Dragon : Enemy
         health -= damage;
         if (health <= 0)
         {
-            //Destroy(this.gameObject);
             this.gameObject.SetActive(false);
             Invoke("RespawnEnemy", 5f);
         }

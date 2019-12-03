@@ -15,13 +15,6 @@ public class log : Enemy
     private Vector3 spawnRotation;
     private float spawnHealth;
 
-    /*void Start()
-    {
-        target = GameObject.FindWithTag("Player").transform;
-        currentState = EnemyState.idle;
-        anim = GetComponent<Animator>();
-    } */
-
     public override void OnStartServer()
     {
         Invoke("GetTargets", 1f);
@@ -43,7 +36,6 @@ public class log : Enemy
         anim = GetComponent<Animator>();
     }
 
-    //[Server]
     void Update()
     {
         HPDisplay.text = "HP:" + health;
@@ -56,21 +48,15 @@ public class log : Enemy
         Debug.Log(Vector3.Distance(target.position, transform.position));
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            //if (currentState == EnemyState.idle || currentState == EnemyState.walk)
-            {
-                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-                ChangeAnim(temp - transform.position);
-                myRigidBody.MovePosition(temp);
-                //transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-                ChangeState(EnemyState.walk);
-                Debug.Log("in range");
-                anim.SetBool("wakeUp", true);
-            }
-            
+            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            ChangeAnim(temp - transform.position);
+            myRigidBody.MovePosition(temp);
+            ChangeState(EnemyState.walk);
+            Debug.Log("in range");
+            anim.SetBool("wakeUp", true);
         }
         else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
         {
-            //ChangeState(EnemyState.idle);
             anim.SetBool("wakeUp", false);
         }
     }
@@ -97,7 +83,6 @@ public class log : Enemy
         health -= damage;
         if (health <= 0)
         {
-            //Destroy(this.gameObject);
             this.gameObject.SetActive(false);
             Invoke("RespawnEnemy", 5f);
         }

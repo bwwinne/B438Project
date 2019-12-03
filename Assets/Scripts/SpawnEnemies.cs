@@ -10,14 +10,6 @@ public class SpawnEnemies : NetworkBehaviour
     public Transform DragonSpawn;
     public Transform LogSpawn;
 
-    public delegate void DieDelegate();
-    public delegate void RespawnDelegate();
-
-    [SyncEvent(channel = 1)]
-    public event DieDelegate EventDie;
-    [SyncEvent]
-    public event RespawnDelegate EventRespawn;
-
     public override void OnStartServer()
     {
         SpawnDragon();
@@ -47,16 +39,4 @@ public class SpawnEnemies : NetworkBehaviour
         GameObject log = Instantiate(LogPrefab, LogSpawn.position, Quaternion.identity) as GameObject;
         NetworkServer.Spawn(log);
     }
-    /*
-    void SpawnDragon()
-    {
-        GameObject dragon = Instantiate(DragonPrefab, DragonSpawn.position, Quaternion.identity) as GameObject;
-        NetworkServer.Spawn(dragon);
-    }
-
-    void SpawnLog()
-    {
-        GameObject log = Instantiate(LogPrefab, LogSpawn.position, Quaternion.identity) as GameObject;
-        NetworkServer.Spawn(log);
-    } */
 }
