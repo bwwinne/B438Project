@@ -39,7 +39,7 @@ public class Player : NetworkBehaviour
         HPDisplay.text = "HP:" + health;
     }
 
-    [ClientRpc]
+    [Server]
     private void RpcRespawnPlayer()
     {
         this.gameObject.SetActive(true);

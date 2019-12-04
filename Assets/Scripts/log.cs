@@ -78,6 +78,7 @@ public class log : Enemy
         anim.SetFloat("moveY", direction.y);
     }
 
+    [Server]
     public void TakeDamage(float damage)
     {
         health -= damage;
@@ -88,6 +89,7 @@ public class log : Enemy
         }
     }
 
+    [Server]
     private void RespawnEnemy()
     {
         this.gameObject.SetActive(true);

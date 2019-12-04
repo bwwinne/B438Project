@@ -56,7 +56,10 @@ public class Dragon : Enemy
     {
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            //ChangeAnim(temp - transform.position);
+            myRigidBody.MovePosition(temp);
+            //transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
             RotateTowardsTarget();
             ChangeState(EnemyState.walk);
             anim.SetBool("attacking", true);

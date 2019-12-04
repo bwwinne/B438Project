@@ -44,14 +44,12 @@ public class PlayerMovement : NetworkBehaviour
             playerRot = Vector3.zero;
             playerRot.x = Input.GetAxisRaw("RightStickX");
             playerRot.y = Input.GetAxisRaw("RightStickY");
-
-            if (Input.GetButtonDown("attack"))
+            // only attack if not already attacking
+            if (Input.GetButtonDown("attack") && !anim.GetBool("attacking"))
             {
                 StartCoroutine(AttackCoroutine());
             }
-            {
-                UpdateAnimationAndMove();
-            }
+            UpdateAnimationAndMove();
         }
     }
 

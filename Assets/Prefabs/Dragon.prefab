@@ -139,7 +139,7 @@ MonoBehaviour:
   homePosition: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 14
-  attackRadius: 10
+  attackRadius: 11
   anim: {fileID: 0}
 --- !u!212 &7820837141602407852
 SpriteRenderer:
